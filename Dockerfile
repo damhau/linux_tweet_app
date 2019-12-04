@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM docker.io/nginx:latest
 
 COPY index.html /usr/share/nginx/html
 COPY linux.png /usr/share/nginx/html
